@@ -1,0 +1,28 @@
+.script-box {
+  will-change: width, height, left, top;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.blockChildren {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-flow: row;
+  padding: 0 6vw;
+}
+
+.blockChildren.finished {
+  height: 14.286vh;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  .blockChildren.finished {
+    height: 100%;
+    padding: 0 3vw;
+  }
+}

@@ -1,0 +1,77 @@
+.terminal {
+  padding: 20px;
+  overflow-y: scroll;
+  color: white;
+  font-size: calc(10px + 0.5vmin);
+  border-radius: 4px;
+  width: 500px;
+  height: 360px;
+  margin: 2vmin;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.terminal::-webkit-scrollbar,
+.terminal::-webkit-scrollbar-corner {
+  background-color: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.terminal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.terminal .prompt,
+.terminal .output .message pre {
+  background-color: inherit;
+  margin-bottom: 10px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.terminal .output .error {
+  color: red;
+}
+
+.terminal .prompt {
+  position: relative;
+}
+
+.terminal .prompt-string {
+  position: absolute;
+  left: 0px;
+  font-size: calc(12px + 0.5vmin);
+}
+
+.terminal .blank {
+  min-height: calc(10px + 0.5vmin);
+}
+
+.terminal .prompt.hidden {
+  display: none;
+}
+
+.terminal .prompt-input {
+  height: auto;
+  width: 100%;
+  background-color: inherit;
+  font-size: inherit;
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  caret-color: inherit;
+  color: inherit;
+  resize: none;
+  outline: none;
+  overflow: hidden;
+}

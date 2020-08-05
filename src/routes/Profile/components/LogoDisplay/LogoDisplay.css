@@ -1,0 +1,12 @@
+.LogoDisplay {
+  margin: 3em 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.LogoDisplay .konvajs-content {
+  border: 1px solid white;
+  border-radius: 0.25em;
+  overflow: hidden;
+  background-color: #444;
+}

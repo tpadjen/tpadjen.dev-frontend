@@ -1,0 +1,24 @@
+.JumpIn .trails-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.JumpIn pre.trails-text {
+  background-color: inherit;
+  position: relative;
+  /* height: calc(16px + 3vmin); */
+  line-height: calc(16px + 3vmin);
+  color: #efdfbf;
+  font-size: calc(16px + 3vmin);
+  font-weight: 800;
+  will-change: transform, opacity;
+  overflow: hidden;
+  margin: 0;
+  padding: 1em 0;
+}
